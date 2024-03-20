@@ -7,6 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Fav icon -->
     <link rel="icon" href="./assets/icons/github.svg">
+    <!-- Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- css file -->
     <link rel="stylesheet" href="./styles/output.css" />
     <title>Github</title>
@@ -50,31 +52,36 @@
                 </div>
             </div>
 
-            <div class="header__bottom bg-[#0D1117] pt-[33px]  px-[403px]">
+            <div class="header__bottom bg-[#0D1117] pt-[33px]  px-[403px] border-b-2 border-b-[#282c31]">
                 <div class="container px-4 mx-auto">
                     <ul class="flex gap-[26px]">
-                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] border-b-2 border-b-[#e77960] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                        <li
+                            class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] border-b-2 border-b-[#e77960] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
                             <img src="./assets/icons/bookopen.svg" alt="bookopen">
                             <span>Overview</span>
                         </li>
 
-                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                        <li
+                            class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
                             <img src="./assets/icons/book.svg" alt="Repositories">
                             <span>Repositories</span>
                             <img src="./assets/icons/repobadge.svg" alt="repobadge">
                         </li>
 
-                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                        <li
+                            class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
                             <img src="./assets/icons/template.svg" alt="template">
                             <span>Projects</span>
                         </li>
 
-                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                        <li
+                            class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
                             <img src="./assets/icons/package.svg" alt="package">
                             <span>Packages</span>
                         </li>
 
-                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                        <li
+                            class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
                             <img src="./assets/icons/star.svg" alt="star">
                             <span>Stars</span>
                             <img src="./assets/icons/starbadge.svg" alt="starbadge">
@@ -85,7 +92,48 @@
         </nav>
     </header>
 
-    
+    <main>
+        <section id="intro" class="bg-[#0D1117] py-[50px]">
+            <div class="container px-4 mx-auto">
+                <div class=" flex gap-[26px]">
+                    <div>
+                        <img src="https://avatars.githubusercontent.com/u/145527068?v=4" alt="profile"
+                            class="rounded-full w-[296px]">
+                        <h1 class="text-[24px] font-semibold text-white pt-[18px]">Nasiba Polvonova</h1>
+                        <p class="text-[#6E7681] text-[20px] mb-[18px]">pnasiba · she/her</p>
+                        <button
+                            class="mb-[16px] w-full bg-[#21262D] text-[#C2CAD1] text-[14px] font-bold py-[6px] rounded-[5px] border-[1px] border-[#343942]">Edit
+                            profile</button>
+
+                        <div class="flex gap-[5px] items-center mb-[20px]">
+                            <div class="flex gap-[4px] items-center">
+                                <img src="./assets/icons/people.svg" alt="people">
+                                <span class="text-[14px] font-semibold text-white">3</span>
+                                <p class="text-[#6E7681] text-[14px] font-semibold">followers</p>
+                            </div>
+                            <span class="text-[14px] font-semibold text-white">·</span>
+                            <div class="flex gap-[4px] items-center">
+                                <span class="text-[14px] font-semibold text-white">2</span>
+                                <p class="text-[#6E7681] text-[14px] font-semibold">following</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-[7px] items-center">
+                            <i class='bx bx-buildings bx-flip-horizontal text-lg' style='color:#8B949E'></i>
+                            <p class="text-white text-[14px] font-medium">Na'jot Ta'lim</p>
+                        </div>
+
+                        <div class="flex gap-[6px] items-center">
+                            <img src="./assets/icons/location.svg" alt="location">
+                            <p class="text-white text-[14px] font-medium">Tashkent</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
