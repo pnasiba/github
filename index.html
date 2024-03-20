@@ -1,18 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <!-- css file -->
-        <link rel="stylesheet" href="./styles/output.css" />
-        <title>Document</title>
-    </head>
-    <body>
-        <h1 class="text-green-600">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi voluptate necessitatibus commodi, dolores
-            recusandae ullam facere pariatur sequi, possimus quos doloribus culpa ipsum mollitia, repellendus velit
-            exercitationem numquam quam maxime.
-        </h1>
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fav icon -->
+    <link rel="icon" href="./assets/icons/github.svg">
+    <!-- css file -->
+    <link rel="stylesheet" href="./styles/output.css" />
+    <title>Github</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header__top bg-[#161B22] py-[20px]">
+                <div class="container px-4 mx-auto">
+                    <div class="flex justify-between">
+                        <ul class="flex gap-[16px] items-center">
+                            <li class="flex gap-[16px]">
+                                <img src="./assets/icons/github.svg" alt="github">
+                                <span
+                                    class="flex border-[1px] border-[#282C31] bg-[#0D1117] gap-[13px] pr-[4px] rounded-[5px]">
+                                    <input type="search" placeholder="Search or jump to..."
+                                        class="bg-[#0D1117] outline-none py-[5.5px] pl-[12px] text-white w-[200px]">
+                                    <img src="./assets/icons/keyslash.svg" alt="keyslash">
+                            </li>
+                            <li class="text-white font-bold text-[14px]">Pull requests</li>
+                            <li class="text-white font-bold text-[14px]">IssuesIssues</li>
+                            <li class="text-white font-bold text-[14px]">Codespaces</li>
+                            <li class="text-white font-bold text-[14px]">Marketplace</li>
+                            <li class="text-white font-bold text-[14px]">Explore</li>
+                        </ul>
+
+                        <ul class="flex gap-[12px] items-center">
+                            <li>
+                                <img src="./assets/icons/bell.svg" alt="bell">
+                            </li>
+                            <li>
+                                <img src="./assets/icons/menu.svg" alt="menu">
+                            </li>
+                            <li class="flex gap-[4px]">
+                                <img src="./assets/icons/profile2.svg" alt="profile">
+                                <img src="./assets/icons/arrowdownfilled.svg" alt="arrowdownfilled">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__bottom bg-[#0D1117] pt-[33px]  px-[403px]">
+                <div class="container px-4 mx-auto">
+                    <ul class="flex gap-[26px]">
+                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] border-b-2 border-b-[#e77960] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                            <img src="./assets/icons/bookopen.svg" alt="bookopen">
+                            <span>Overview</span>
+                        </li>
+
+                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                            <img src="./assets/icons/book.svg" alt="Repositories">
+                            <span>Repositories</span>
+                            <img src="./assets/icons/repobadge.svg" alt="repobadge">
+                        </li>
+
+                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                            <img src="./assets/icons/template.svg" alt="template">
+                            <span>Projects</span>
+                        </li>
+
+                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                            <img src="./assets/icons/package.svg" alt="package">
+                            <span>Packages</span>
+                        </li>
+
+                        <li class="flex gap-[5px] text-[#C2CAD1] font-semibold text-[14px] active:border-b-2 active:border-b-[#E77960] pb-[16px] cursor-pointer">
+                            <img src="./assets/icons/star.svg" alt="star">
+                            <span>Stars</span>
+                            <img src="./assets/icons/starbadge.svg" alt="starbadge">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+</body>
+
 </html>
